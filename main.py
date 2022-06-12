@@ -32,7 +32,7 @@ label2 = Label(tk, image = dadi_immagini[0])
 label2.grid(row=0,column=3, columnspan=1)
 
 def spin():
-    global label1, saldo
+    global saldo
     
 
     if int(entryPuntata.get()) <= saldo:
