@@ -26,9 +26,9 @@ dadi_dati={
     dado_5_img: 5,
     dado_6_img: 6}
 
-label1 = Label(tk, image = dadi_immagini[0], text="SPIN!")
+label1 = Label(tk, image = dadi_immagini[0])
 label1.grid(row=0,column=2, columnspan=1)
-label2 = Label(tk, image = dadi_immagini[0], text="SPIN!")
+label2 = Label(tk, image = dadi_immagini[0])
 label2.grid(row=0,column=3, columnspan=1)
 
 def spin():
